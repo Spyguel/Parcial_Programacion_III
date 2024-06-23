@@ -9,7 +9,6 @@
     for (let i = 0; i < elementos.length; i++) {
         total += elementos[i];
     }
-    console.log(elementos)
     
     
     const resMedia = total / elementos.length;
@@ -31,17 +30,49 @@
 
 
 function arreglo(segundo) {
-    const inputText = document.getElementById('miInput').value;
+    inputText = document.getElementById('miInput').value;
     elementos = inputText.split(',').map(Number);
+    console.log(elementos)
+    segundo();
+}
+
+
+
+function segundo(){
+
     let total = 0;
     for (let i = 0; i < elementos.length; i++) {
         total += elementos[i];
     }
-    segundo();
+    
+    
+    const resMedia = total / elementos.length;
+
+
+    document.getElementById('media').innerHTML = "La media es: "+resMedia
+
+    let variable = 0, contador = 0, cuenta = 0
+    elementos.map(p => {
+        cuenta = 0
+        elementos.map(x => {
+            if (p == x) { cuenta++ }
+        })
+        if (cuenta > contador) {
+            variable = p;
+        }
+    });
+
+    document.getElementById('moda').innerHTML = "La moda es: " +variable
+
+
+    elementos.sort((x, y) => x - y);
+    let mitad = Math.floor(elementos.length /2)
+    console.log(elementos.length)
+
+    const resMediana = elementos.length % 2 === 1
+    ? elementos[mitad]
+    : (elementos[mitad - 1] + elementos[mitad]) / 2;
+  
+    document.getElementById('mediana').innerHTML = "La mediana es: "+resMediana
+
 }
-
-function segundo() {
-    console.log(elementos);
-}
-
-
