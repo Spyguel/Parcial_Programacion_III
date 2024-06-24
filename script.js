@@ -39,7 +39,7 @@ function arreglo(segundo) {
 
 
 function segundo(){
-
+    
     let total = 0;
     for (let i = 0; i < elementos.length; i++) {
         total += elementos[i];
@@ -49,7 +49,7 @@ function segundo(){
     const resMedia = total / elementos.length;
 
 
-    document.getElementById('media').innerHTML = "La media es: "+resMedia
+    document.getElementById('media').innerHTML = "Media: "+resMedia
 
     let variable = 0, contador = 0, cuenta = 0
     elementos.map(p => {
@@ -62,7 +62,7 @@ function segundo(){
         }
     });
 
-    document.getElementById('moda').innerHTML = "La moda es: " +variable
+    document.getElementById('moda').innerHTML = "Moda: " +variable
 
 
     elementos.sort((x, y) => x - y);
@@ -73,6 +73,8 @@ function segundo(){
     ? elementos[mitad]
     : (elementos[mitad - 1] + elementos[mitad]) / 2;
   
-    document.getElementById('mediana').innerHTML = "La mediana es: "+resMediana
+    document.getElementById('mediana').innerHTML = "Mediana: "+resMediana
+
+    document.getElementById('resultado').style.visibility = "visible"
 
 }
