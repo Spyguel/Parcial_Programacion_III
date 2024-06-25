@@ -17,9 +17,9 @@
 <img src="img/captura.png">
 </p>
 
-### 1. Ingresar el conjunto de numeros como por ejemplo: "1,2,3,4"
+1. Ingresar el conjunto de numeros como por ejemplo: "1,2,3,4"
 
-### 2. Seleccionar la opción de la medida que desee calcular.
+2. Seleccionar la opción de la medida que desee calcular.
 
 
 ## Resultado de ejemplo:
