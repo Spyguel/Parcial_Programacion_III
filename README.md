@@ -6,7 +6,7 @@
 
 <p>
     Esta es una sencilla calculadora desarrollada en HTML y JavaScript que permite calcular la edia, la mediana y la moda mediante un conjunto no agrupado de números.
-    Es una útil herramienta para quienes necesitan realizar cálculos estadísticos de manera rápid y eficiente.
+    Es una útil herramienta para quienes necesitan realizar cálculos estadísticos de manera rápida y eficiente.
 </p>
 <p align= "center">
 <img src="img/line.gif">
