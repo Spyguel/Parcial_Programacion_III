@@ -11,13 +11,17 @@
         <div class="row justify-content-center">
             <div class="col-md-6 border rounded p-4">
                 <!-- Inicio del formulario -->
-                <form onsubmit="return false;">
+                <form class="needs-validation">
                     <div class="mb-3">
                         <label for="dataInput" class="form-label">Datos:</label>
-                        <input type="text" class="form-control" id="miInput" placeholder="40,43,43,50,55,60,62,65" value="">
+                        <input type="text" class="form-control" id="miInput" placeholder="40,43,43,50,55,60,62,65" required>
+                        <div class="Validacion-ok">
+                            <p class="text-danger" id="alerta"></p>
+                          </div>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="arreglo(segundo)">Resolver</button>
-                    <button type="reset" class="btn btn-success" onclick="">Limpiar</button>
+                    <button type="button" class="btn btn-primary" onclick="media()">Media</button>
+                    <button type="button" class="btn btn-success" onclick="mediana()">Mediana</button>
+                    <button type="reset" class="btn btn-success" onclick="moda()">Moda</button>
                 </form>
                 <!-- Fin del formulario -->
             </div>
@@ -25,9 +29,9 @@
 
         <div class="row justify-content-center mt-3" id="resultado" style="visibility: hidden;">
             <div class="col-md-6 border rounded p-4 bg-success">
-                <p class="text-light" id="media">Media:</p>
-                <p class="text-light" id="mediana">Mediana:</p>
-                <p class="text-light" id="moda">Moda:</p>
+                <p class="text-light" id="media"></p>
+                <p class="text-light" id="mediana"></p>
+                <p class="text-light" id="moda"></p>
             </div>
         </div>
     </div>
