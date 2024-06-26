@@ -1,8 +1,15 @@
 # Calculadora de media mediana y moda
 
+<div align="center">
+<a href="https://estadistica-calculadora.000webhostapp.com/Parcial_Programacion_III/Index.html"><img src="https://img.shields.io/badge/sitio_web-red?style=flat&color=%09%2378288C
+"></a>
+</div>
+
 <p align= "center">
 <img src="img/line.gif">
 </p>
+
+
 
 <p>
     Esta es una sencilla calculadora desarrollada en HTML y JavaScript que permite calcular la media, la mediana y la moda mediante un conjunto no agrupado de números.
@@ -11,6 +18,8 @@
 <p align= "center">
 <img src="img/line.gif">
 </p>
+
+
 
 ## uso 
 <p align= "center">
