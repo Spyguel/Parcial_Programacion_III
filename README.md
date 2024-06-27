@@ -1,7 +1,7 @@
 # Calculadora de media mediana y moda
 
 <div align="center">
-<a target="_blank" href="https://estadistica-calculadora.000webhostapp.com/Parcial_Programacion_III/Index.html"><img alt="Static Badge" src="https://img.shields.io/badge/sitio_web-red?style=flat&color=%09%2378288C">
+<a target="_blank" href="https://mis-paginas-webs.000webhostapp.com/Parcial_Programacion_III/Index.html"><img alt="Static Badge" src="https://img.shields.io/badge/sitio_web-red?style=flat&color=%09%2378288C">
 </a>
 </div> 
 
